@@ -12,12 +12,12 @@ This can then be easily imported to Python/other programming languages for downs
 
 Note that DNAshapeR provides CpG-based shapes as CpG context can drastically affect DNA shape features. They have only provided four shapes, so the CpG shape features use CpG shapes for the four features with CpG alterations, while the other 10 shapes will use regular shape features.
 
-If you have any questions, you can go to the DNAshapeR vignette curated by the original authors with *browseVignettes("DNAshapeR")* in R. 
+If you have any questions, you can go to the DNAshapeR vignette curated by the original authors with *browseVignettes("DNAshapeR")* in R, or check out Tsu-Pei's awesome Github page (http://tsupeichiu.github.io/DNAshapeR/).
 
 
 ## Citations
 
-I do not claim any rights to these scripts, feel free to reuse/redistribute. Please remember to cite the original authors if you are using this script:
+I do not claim any rights to these scripts, all rights belong to the original authors; feel free to reuse/redistribute. Please remember to cite the original authors if you are using these scripts:
 
 #### All scripts:
 
