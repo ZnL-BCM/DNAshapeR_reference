@@ -1,10 +1,10 @@
 # DNAshapeR_reference
 ### Zian Liu
-#### Last updated: 12/23/2020
+#### Last updated: 5/15/2021
 
 ## Description
 
-This is a collection of convenient R scripts for generating reference xlsx tables based on the DNAshape method (Zhou et al. 2013) and the DNAshapeR package (Chiu et al. 2016). 
+This is a collection of convenient R scripts for generating reference excel tables based on the DNAshape method (Zhou et al. 2013) and the DNAshapeR package (Chiu et al. 2016). 
 
 The generated xlsx tables will have 14 tabs corresponding to the 14 shape features available in the package. In each tab, the rows represent unique 7-mers, while the columns represent position. 
 
