@@ -1,16 +1,14 @@
 # DNAshapeR_reference
 ### Zian Liu
-#### Last updated: 5/15/2021
+#### Last updated: 6/21/2021
 
 ## Description
 
 This is a collection of convenient R scripts for generating reference excel tables based on the DNAshape method (Zhou et al. 2013) and the DNAshapeR package (Chiu et al. 2016). 
 
-The generated xlsx tables will have 14 tabs corresponding to the 14 shape features available in the package. In each tab, the rows represent unique 7-mers, while the columns represent position. 
+The generated csv tables will have 14 types of shapes corresponding to the 14 shape features available in the package. The rows represent unique 7-mers, while the columns represent shape type and position. If CpG is considerd, there will be 18 types of shapes instead.
 
 This can then be easily imported to Python/other programming languages for downstream analyses. Example script is provided (*example.py*).
-
-Note that DNAshapeR provides CpG-based shapes as CpG context can drastically affect DNA shape features. They have only provided four shapes, so the CpG shape features use CpG shapes for the four features with CpG alterations, while the other 10 shapes will use regular shape features.
 
 If you have any questions, you can go to the DNAshapeR vignette curated by the original authors with *browseVignettes("DNAshapeR")* in R, or check out Tsu-Pei's awesome Github page (http://tsupeichiu.github.io/DNAshapeR/).
 
