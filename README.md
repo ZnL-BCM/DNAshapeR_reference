@@ -24,7 +24,7 @@ The four commands correspond to:
 * Output csv file name
 * Whether to consider CpG methylation (logical variable)
 
-Note that the *archive/* folder contains scripts which include hard-coded inputs and outputs, so using the *generate_DNAshapes_csv.R* script is recommended.
+Note that the **archive/** folder contains scripts which include hard-coded inputs and outputs, and these scripts are NOT GUARANTEED to work. Please use them with caution; using the *generate_DNAshapes_csv.R* script is recommended. 
 
 
 ## Citations
