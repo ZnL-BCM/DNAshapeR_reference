@@ -8,9 +8,23 @@ This is a collection of convenient R scripts for generating reference excel tabl
 
 The generated csv tables will have 14 types of shapes corresponding to the 14 shape features available in the package. The rows represent unique 7-mers, while the columns represent shape type and position. If CpG is considerd, there will be 18 types of shapes instead.
 
-This can then be easily imported to Python/other programming languages for downstream analyses. Example script is provided (*example.py*).
+This can be easily imported to Python by something like ``pandas.read_csv(filename, header=0, index_col=0)`` or into other programming languages.
 
-If you have any questions, you can go to the DNAshapeR vignette curated by the original authors with *browseVignettes("DNAshapeR")* in R, or check out Tsu-Pei's awesome Github page (http://tsupeichiu.github.io/DNAshapeR/).
+If you have any questions, please go to the DNAshapeR vignette curated by the original authors with *browseVignettes("DNAshapeR")* in R, or check out Tsu-Pei's GitHub page (http://tsupeichiu.github.io/DNAshapeR/).
+
+## Usage
+
+For usage, run the following:
+```
+Rscript generate_DNAshapes_csv.R k fasta_name.fa output_name.csv <TRUE/FALSE>
+```
+The four commands correspond to:
+* k, the length of k-mers (odd integer)
+* Output prefix for intermediate fasta files (recommend to put in a separate directory!)
+* Output csv file name
+* Whether to consider CpG methylation (logical variable)
+
+Note that the *archive/* folder contains scripts which include hard-coded inputs and outputs, so using the *generate_DNAshapes_csv.R* script is recommended.
 
 
 ## Citations
