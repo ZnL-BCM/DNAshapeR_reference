@@ -33,14 +33,12 @@ I do not claim any rights to these scripts, all rights belong to the original au
 
 #### All scripts:
 
-Chiu T, Comoglio F, Zhou T, Yang L, Paro R, Rohs R (2016). “DNAshapeR: an R/Bioconductor package for DNA shape prediction and feature encoding.” *Bioinformatics*, 32, 1211-1213.
-
-Chiu T, Rao S, Mann R, Honig B, Rohs R (2017). “Genome-wide prediction of minor-groove electrostatic potential enables biophysical modeling of protein-DNA binding.” *Nucleic Acids Res.*, 45(21), 12565-12576.
-
-Li J, Sagendorf J, Chiu T, Pasi M, Perez A, Rohs R (2017). “Expanding the repertoire of DNA shape features for genome-scale studies of transcription factor binding.” *Nucleic Acids Res.*, 45(22), 12877-12887.
+* Chiu T, Comoglio F, Zhou T, Yang L, Paro R, Rohs R (2016). “DNAshapeR: an R/Bioconductor package for DNA shape prediction and feature encoding.” *Bioinformatics*, 32, 1211-1213.
+* Chiu T, Rao S, Mann R, Honig B, Rohs R (2017). “Genome-wide prediction of minor-groove electrostatic potential enables biophysical modeling of protein-DNA binding.” *Nucleic Acids Res.*, 45(21), 12565-12576.
+* Li J, Sagendorf J, Chiu T, Pasi M, Perez A, Rohs R (2017). “Expanding the repertoire of DNA shape features for genome-scale studies of transcription factor binding.” *Nucleic Acids Res.*, 45(22), 12877-12887.
 
 #### If methylation shapes are used, also cite this article:
-Rao S, Chiu T, Kribelbauer J, Mann R, Bussemaker H, Rohs R (2018). “Systematic prediction of DNA shape changes due to CpG methylation explains epigenetic effects on protein-DNA binding.” *Epigenetics Chromatin*, 11:6.
+* Rao S, Chiu T, Kribelbauer J, Mann R, Bussemaker H, Rohs R (2018). “Systematic prediction of DNA shape changes due to CpG methylation explains epigenetic effects on protein-DNA binding.” *Epigenetics Chromatin*, 11:6.
 
 
 ## Thank you!
